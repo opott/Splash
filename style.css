@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+body {
+    font-family: IBM Plex Mono, sans-serif;
+    justify-self: center;
+    text-align: center;
+}
+
+.button {
+    background-color: #ff6100;
+    padding: 15px;
+    border-radius: 15px;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    .button {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    img {
+        width: 100%;
+        max-width: 300px;
+    }
+}
